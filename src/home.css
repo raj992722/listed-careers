@@ -1,0 +1,60 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: gray;
+}
+
+.board {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  background: black;
+}
+.login {
+  /* width:100%; */
+  height: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-inner {
+  /* border: lawngreen solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 20px;
+  color: lightcyan;
+}
+.login-form-cont {
+  /* border: 2px black solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-outer {
+  padding: 3rem;
+}
+
+.form {
+  /* border: red solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-outer {
+  margin: 13px;
+  box-shadow: 0 0 2px 2px;
+  border-radius: 10px;
+}

@@ -1,0 +1,17 @@
+#left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  color: white;
+}
+
+#left > p {
+  font-size: 2rem;
+}
+#left > ul {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
